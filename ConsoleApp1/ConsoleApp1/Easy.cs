@@ -82,5 +82,48 @@ namespace ConsoleApp1
 
             return stringBuilder.ToString();
         }
+
+        #region 58. Length of Last Word
+        public int LengthOfLastWord(string s)
+        {
+            if (string.IsNullOrEmpty(s)) return 0;
+            int len = 0;
+            for (int i = s.Length - 1; i >= 0; i--)
+            {
+                if (s[i] != ' ')
+                {
+                    len++;
+                }
+                else
+                {
+                    if (len > 0) break;
+                }
+            }
+            return len;
+        }
+
+        #endregion
+
+        #region 66. Plus One
+        public int[] PlusOne(int[] digits)
+        {
+            int r = 1;
+            int i = digits.Count() - 1;
+            while (r != 0 && i >= 0)
+            {
+                int sum = digits[i] + r;
+                digits[i] = sum % 10;
+                r = sum / 10;
+                i--;
+            }
+            if (r > 0)
+            {
+                var lst = new List<int>() { r };
+                lst.AddRange(digits);
+                return lst.ToArray();
+            }
+            return digits;
+        }
+        #endregion
     }
 }
