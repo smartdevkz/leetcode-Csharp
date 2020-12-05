@@ -11,8 +11,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             var app = new Easy();
-            //var res = app.RemoveDuplicates(new int[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 });
-            var res = app.CountAndSay(2);
+            var res = app.LengthOfLastWord("Hello World");
             Console.WriteLine(res);
             Console.ReadKey();
         }
