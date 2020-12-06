@@ -11,11 +11,22 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             var app = new Easy();
-            var res = app.LengthOfLastWord("Hello World");
-            Console.WriteLine(res);
+            app.Merge(new int[] { 1, 2, 3, 0, 0, 0 }, 3, new int[] { 2, 5, 6 }, 3);
+            //Console.WriteLine(res);
+            //DisplayList(res);
+
+
+
             Console.ReadKey();
         }
 
-        
+        static void DisplayArray(int[] arr)
+        {
+            foreach (var item in arr)
+            {
+                Console.WriteLine(item);
+            }
+        }
+
     }
 }

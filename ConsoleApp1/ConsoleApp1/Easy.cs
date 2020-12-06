@@ -125,5 +125,54 @@ namespace ConsoleApp1
             return digits;
         }
         #endregion
+
+        #region 69. Sqrt(x)
+        public int MySqrt(int x)
+        {
+            if (x < 2) return x;
+            if (x / 2 < 2) return 1;
+            int i;
+            for (i = 2; i <= (x / 2); i++)
+            {
+                if ((x / i) < i) break;
+            }
+            return i - 1;
+        }
+        #endregion
+
+        #region 88. Merge Sorted Array
+        public void Merge(int[] nums1, int m, int[] nums2, int n)
+        {
+            int i = m - 1;
+            int j = n - 1;
+            while (i >= 0 || j >= 0)
+            {
+                if (i >= 0 && j >= 0)
+                    if (nums1[i] <= nums2[j])
+                    {
+                        nums1[i + j + 1] = nums2[j];
+                        j--;
+                    }
+                    else
+                    {
+                        nums1[i + j+1] = nums1[i];
+                        i--;
+                    }
+                else
+                {
+                    if (j >= 0)
+                    {
+                        nums1[j] = nums2[j];
+                        j--;
+                    }
+                    else
+                    {
+                        break;
+                    }
+                }
+            }
+            var arr = nums1;
+        }
+        #endregion
     }
 }
