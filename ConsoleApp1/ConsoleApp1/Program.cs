@@ -10,17 +10,15 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var solution = new Easy125.Solution();
-            var res = solution.IsPalindrome("ab2a");
-            Console.WriteLine(res);
-            //DisplayList(res);
-
-
+            var solution = new Easy119.Solution();
+            var res = solution.GetRow(4);
+            //Console.WriteLine(res);
+            DisplayArray(res);
 
             Console.ReadKey();
         }
 
-        static void DisplayArray(int[] arr)
+        static void DisplayArray(IList<int> arr)
         {
             foreach (var item in arr)
             {

@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Easy\119_PascalTriangle2.cs" />
     <Compile Include="Easy\125ValidPalindrome.cs" />
     <Compile Include="Easy\someTasks.cs" />
     <Compile Include="Program.cs" />
