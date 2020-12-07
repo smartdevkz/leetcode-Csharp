@@ -11,7 +11,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             var app = new Easy();
-            app.Merge(new int[] { 1, 2, 3, 0, 0, 0 }, 3, new int[] { 2, 5, 6 }, 3);
+            var res = app.Generate(4);
             //Console.WriteLine(res);
             //DisplayList(res);
 

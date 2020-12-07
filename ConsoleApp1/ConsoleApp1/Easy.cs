@@ -155,7 +155,7 @@ namespace ConsoleApp1
                     }
                     else
                     {
-                        nums1[i + j+1] = nums1[i];
+                        nums1[i + j + 1] = nums1[i];
                         i--;
                     }
                 else
@@ -173,6 +173,38 @@ namespace ConsoleApp1
             }
             var arr = nums1;
         }
+        #endregion
+
+        #region 118. Pascal's Triangle
+        public IList<IList<int>> Generate(int numRows)
+        {
+            List<IList<int>> res = new List<IList<int>>();
+
+            for (int i = 0; i < numRows; i++)
+            {
+                if (res.Count() == 0) res.Add(new int[] { 1 });
+                else if (res.Count() == 1)
+                {
+                    res.Add(new int[] { 1, 1 });
+                }
+                else
+                {
+                    var children = new int[i + 1];
+                    children[0] = 1;
+                    var last = res[i - 1];
+                    for (int j = 1; j < last.Count(); j++)
+                    {
+
+                        children[j] = last[j - 1] + last[j];
+                    }
+                    children[children.Length - 1] = 1;
+                    res.Add(children);
+                }
+            }
+            return res;
+        }
+
+
         #endregion
     }
 }
