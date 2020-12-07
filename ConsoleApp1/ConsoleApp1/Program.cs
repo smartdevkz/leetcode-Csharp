@@ -10,9 +10,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var app = new Easy();
-            var res = app.Generate(4);
-            //Console.WriteLine(res);
+            var solution = new Easy125.Solution();
+            var res = solution.IsPalindrome("ab2a");
+            Console.WriteLine(res);
             //DisplayList(res);
 
 

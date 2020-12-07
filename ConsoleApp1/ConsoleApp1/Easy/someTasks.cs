@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace ConsoleApp1.Sometasks
 {
-    class Easy
+    class Solution
     {
         //26. Remove Duplicates from Sorted Array
         public int RemoveDuplicates(int[] nums)
@@ -203,8 +203,6 @@ namespace ConsoleApp1
             }
             return res;
         }
-
-
         #endregion
     }
 }
