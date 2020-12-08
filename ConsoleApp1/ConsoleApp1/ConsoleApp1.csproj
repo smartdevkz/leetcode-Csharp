@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Easy\119_PascalTriangle2.cs" />
     <Compile Include="Easy\125ValidPalindrome.cs" />
+    <Compile Include="Easy\83_RemoveDuplicatesFromSortedList.cs" />
     <Compile Include="Easy\someTasks.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
