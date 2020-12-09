@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Easy\100_Same_Tree.cs" />
     <Compile Include="Easy\119_PascalTriangle2.cs" />
     <Compile Include="Easy\125ValidPalindrome.cs" />
     <Compile Include="Easy\83_RemoveDuplicatesFromSortedList.cs" />
