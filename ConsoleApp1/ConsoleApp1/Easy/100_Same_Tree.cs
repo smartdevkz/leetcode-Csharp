@@ -10,7 +10,8 @@ namespace ConsoleApp1.Easy_100
     {
         public bool IsSameTree(TreeNode p, TreeNode q)
         {
-            return false;
+            if (p == null || q == null) return p == null && q == null;
+            return p.val == q.val && IsSameTree(p.left, q.left) && IsSameTree(p.right, q.right);
         }
     }
 
