@@ -46,6 +46,7 @@
     <Compile Include="Easy\100_Same_Tree.cs" />
     <Compile Include="Easy\101_Symmetric_Tree.cs" />
     <Compile Include="Easy\119_PascalTriangle2.cs" />
+    <Compile Include="Easy\121_BestTimeToBuyAndSell.cs" />
     <Compile Include="Easy\125ValidPalindrome.cs" />
     <Compile Include="Easy\83_RemoveDuplicatesFromSortedList.cs" />
     <Compile Include="Easy\someTasks.cs" />
@@ -55,6 +56,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Other\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -10,11 +10,11 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var solution = new Easy83.Solution();
-            
-            var res = solution.DeleteDuplicates(solution.GetInitialData());
-            solution.DisplayListNode(res);
-            //Console.WriteLine(res);
+            var solution = new Easy121.Solution();
+
+            var res = solution.MaxProfit(new int[] { 7,1,5,3,6,4});
+            //solution.DisplayListNode(res);
+            Console.WriteLine(res);
             //DisplayArray(res);
 
             Console.ReadKey();
