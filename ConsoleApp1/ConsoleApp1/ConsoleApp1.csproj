@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Easy\100_Same_Tree.cs" />
     <Compile Include="Easy\101_Symmetric_Tree.cs" />
+    <Compile Include="Easy\111_MinimumDepthOfBinaryTree.cs" />
     <Compile Include="Easy\112_PathSum.cs" />
     <Compile Include="Easy\119_PascalTriangle2.cs" />
     <Compile Include="Easy\121_BestTimeToBuyAndSell.cs" />
