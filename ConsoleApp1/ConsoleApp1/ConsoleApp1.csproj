@@ -52,6 +52,7 @@
     <Compile Include="Easy\125ValidPalindrome.cs" />
     <Compile Include="Easy\168_ExcelSheetColumn.cs" />
     <Compile Include="Easy\19_RemoveNthNodeFromEndOfList.cs" />
+    <Compile Include="Easy\412_FizzBuzz.cs" />
     <Compile Include="Easy\83_RemoveDuplicatesFromSortedList.cs" />
     <Compile Include="Easy\someTasks.cs" />
     <Compile Include="Program.cs" />
