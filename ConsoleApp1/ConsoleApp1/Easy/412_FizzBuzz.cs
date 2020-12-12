@@ -30,7 +30,7 @@ namespace ConsoleApp1.Easy412
                     arr[i - 1] = i.ToString();
                 }
             }
-            return null;
+            return arr;
         }
     }
 }
