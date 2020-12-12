@@ -52,6 +52,7 @@
     <Compile Include="Easy\125ValidPalindrome.cs" />
     <Compile Include="Easy\1512_NumberOfGoodPairs.cs" />
     <Compile Include="Easy\1528_SuffleString.cs" />
+    <Compile Include="Easy\1539_Kth_Missing_Positive_Number.cs" />
     <Compile Include="Easy\168_ExcelSheetColumn.cs" />
     <Compile Include="Easy\19_RemoveNthNodeFromEndOfList.cs" />
     <Compile Include="Easy\412_FizzBuzz.cs" />

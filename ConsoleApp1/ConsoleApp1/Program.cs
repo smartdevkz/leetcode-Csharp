@@ -10,9 +10,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var solution = new Easy168.Solution();
+            var solution = new Easy1539.Solution();
 
-            var res = solution.ConvertToTitle(701);
+            var res = solution.FindKthPositive(new int[] { 2, 3, 4, 7, 11 }, 5);
             //solution.DisplayListNode(res);
             Console.WriteLine(res);
             //DisplayArray(res);
