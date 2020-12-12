@@ -13,7 +13,7 @@ namespace ConsoleApp1.Easy1528
             var arr = new char[s.Length];
             for(int i = 0; i < indices.Length; i++)
             {
-                arr[i] = s[indices[i]];
+                arr[indices[i]] = s[i];
             }
             return String.Join("", arr);
         }
