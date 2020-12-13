@@ -10,12 +10,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var solution = new Easy1539.Solution();
+            var solution = new Easy350.Solution();
 
-            var res = solution.FindKthPositive(new int[] { 2, 3, 4, 7, 11 }, 5);
+            var res = solution.Intersect(new int[] { 1, 2, 2, 1 }, new int[] { 2, 2 });
             //solution.DisplayListNode(res);
-            Console.WriteLine(res);
-            //DisplayArray(res);
+            //Console.WriteLine(res);
+            DisplayArray(res);
 
             Console.ReadKey();
         }
