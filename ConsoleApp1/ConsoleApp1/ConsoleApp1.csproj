@@ -57,6 +57,7 @@
     <Compile Include="Easy\168_ExcelSheetColumn.cs" />
     <Compile Include="Easy\171_Excel_Sheet_Column_Number.cs" />
     <Compile Include="Easy\19_RemoveNthNodeFromEndOfList.cs" />
+    <Compile Include="Easy\206_Reverse_Linked_List.cs" />
     <Compile Include="Easy\349_Intersection_Of_Two_Arrays.cs" />
     <Compile Include="Easy\350_Intersection_Of_Two_Arrays_2.cs" />
     <Compile Include="Easy\412_FizzBuzz.cs" />
