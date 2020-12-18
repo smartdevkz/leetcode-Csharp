@@ -58,6 +58,7 @@ namespace ConsoleApp1.Easy110
             //return new TreeNode(1, null, new TreeNode(2, null, new TreeNode(3)));
             //[1,2,2,3,null,null,3,4,null,null,4]
             //return new TreeNode(1,new ) 
+            return null;
         }
     }
 
