@@ -10,16 +10,14 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            
-            
-            var solution = new Easy1002.Solution();
+            var solution = new Easy110.Solution();
 
-            var a = solution.GetArray("yerlan");
-            DisplayArray(a);
+            var res = solution.IsBalanced(solution.GetInitialData());
+            //DisplayArray(a);
 
-            var res = solution.CommonChars(new[] { "bella", "label", "roller" });
+            //var res = solution.CommonChars(new[] { "bella", "label", "roller" });
             //solution.DisplayListNode(res);
-            //Console.WriteLine(res);
+            Console.WriteLine(res);
             //DisplayArray(res);
 
             Console.ReadKey();
