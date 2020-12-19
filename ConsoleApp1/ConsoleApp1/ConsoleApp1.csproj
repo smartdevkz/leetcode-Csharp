@@ -66,6 +66,7 @@
     <Compile Include="Easy\350_Intersection_Of_Two_Arrays_2.cs" />
     <Compile Include="Easy\412_FizzBuzz.cs" />
     <Compile Include="Easy\541_ReverseString2.cs" />
+    <Compile Include="Easy\557_ReverseWordsInAString3.cs" />
     <Compile Include="Easy\565_ArrayNesting.cs" />
     <Compile Include="Easy\771_JewelsAndStones.cs" />
     <Compile Include="Easy\83_RemoveDuplicatesFromSortedList.cs" />
