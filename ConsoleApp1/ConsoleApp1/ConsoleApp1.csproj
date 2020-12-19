@@ -65,6 +65,7 @@
     <Compile Include="Easy\350_Intersection_Of_Two_Arrays_2.cs" />
     <Compile Include="Easy\412_FizzBuzz.cs" />
     <Compile Include="Easy\565_ArrayNesting.cs" />
+    <Compile Include="Easy\771_JewelsAndStones.cs" />
     <Compile Include="Easy\83_RemoveDuplicatesFromSortedList.cs" />
     <Compile Include="Easy\941_Valid_Mountain_Array.cs" />
     <Compile Include="Easy\someTasks.cs" />
