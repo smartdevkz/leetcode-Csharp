@@ -10,9 +10,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var solution = new Easy541.Solution();
+            var solution = new Easy345.Solution();
 
-            var res = solution.ReverseStr("abcdefg", 2);
+            var res = solution.ReverseVowels("leetcode");
             //DisplayArray(a);
 
             //var res = solution.CommonChars(new[] { "bella", "label", "roller" });
