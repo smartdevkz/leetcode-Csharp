@@ -10,9 +10,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var solution = new Easy520.Solution();
+            var solution = new Easy205.Solution();
 
-            var res = solution.DetectCapitalUse("ffffffffffffffffffffF");
+            var res = solution.IsIsomorphic("aa","ab");
             //DisplayArray(a);
 
             //var res = solution.CommonChars(new[] { "bella", "label", "roller" });
