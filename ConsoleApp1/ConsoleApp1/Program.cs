@@ -11,9 +11,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var solution = new Easy268.Solution();
+            var solution = new Easy278.Solution();
 
-            var res = solution.MissingNumber(new int[] {3, 0, 1});
+            var res = solution.FirstBadVersion(5);
             //DisplayArray(a);
 
             //var res = solution.CommonChars(new[] { "bella", "label", "roller" });
