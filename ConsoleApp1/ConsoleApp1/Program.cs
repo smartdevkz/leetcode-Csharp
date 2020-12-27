@@ -11,9 +11,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var solution = new Easy374.Solution();
+            var solution = new Easy258.Solution();
 
-            var res = solution.GuessNumber(1);
+            var res = solution.AddDigits(8);
             //DisplayArray(a);
 
             //var res = solution.CommonChars(new[] { "bella", "label", "roller" });

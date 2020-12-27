@@ -53,6 +53,7 @@
     <Compile Include="Easy\121_BestTimeToBuyAndSell.cs" />
     <Compile Include="Easy\125ValidPalindrome.cs" />
     <Compile Include="Easy\1346_CheckIfNAndItsDoubleExist.cs" />
+    <Compile Include="Easy\141_LinkedListCycle.cs" />
     <Compile Include="Easy\1512_NumberOfGoodPairs.cs" />
     <Compile Include="Easy\1528_SuffleString.cs" />
     <Compile Include="Easy\1539_Kth_Missing_Positive_Number.cs" />
@@ -67,6 +68,7 @@
     <Compile Include="Easy\233_NumberOfDigitOne.cs" />
     <Compile Include="Easy\234_Palindrome_Linked_List.cs" />
     <Compile Include="Easy\237_DeleteNodeInALinkedList.cs" />
+    <Compile Include="Easy\258_AddDigits.cs" />
     <Compile Include="Easy\263_UglyNumber.cs" />
     <Compile Include="Easy\268_MissingNumber.cs" />
     <Compile Include="Easy\278_FirstBadVersion.cs" />
