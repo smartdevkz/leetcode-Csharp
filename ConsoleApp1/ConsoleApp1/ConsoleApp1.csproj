@@ -64,6 +64,7 @@
     <Compile Include="Easy\204_CountPrimes.cs" />
     <Compile Include="Easy\205_IsomorphicStrings.cs" />
     <Compile Include="Easy\206_Reverse_Linked_List.cs" />
+    <Compile Include="Easy\233_NumberOfDigitOne.cs" />
     <Compile Include="Easy\234_Palindrome_Linked_List.cs" />
     <Compile Include="Easy\263_UglyNumber.cs" />
     <Compile Include="Easy\344_ReverseString.cs" />
