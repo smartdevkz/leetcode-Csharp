@@ -11,16 +11,16 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var solution = new Easy203.Solution();
+            var solution = new Easy263.Solution();
 
-            var res = solution.RemoveElements(solution.initData(new int[] { 1, 2, 6, 3, 4, 5, 6,7 }), 6);
+            var res = solution.IsUgly(14);
             //DisplayArray(a);
 
             //var res = solution.CommonChars(new[] { "bella", "label", "roller" });
             //solution.DisplayListNode(res);
-            //Console.WriteLine(res);
+            Console.WriteLine(res);
             //DisplayArray(res);
-            DisplayLinkedList(res);
+            //DisplayLinkedList(res);
             Console.ReadKey();
         }
 
