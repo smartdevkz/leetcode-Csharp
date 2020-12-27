@@ -10,7 +10,7 @@ namespace ConsoleApp1.Easy141
     {
         public bool HasCycle(ListNode head)
         {
-            List<ListNode> lst = new List<ListNode>();
+            var lst = new List<ListNode>();
             while (head != null)
             {
                 if (lst.Contains(head))
