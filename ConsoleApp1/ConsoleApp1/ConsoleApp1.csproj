@@ -73,6 +73,7 @@
     <Compile Include="Easy\345_ReverseVowelsOfAString.cs" />
     <Compile Include="Easy\349_Intersection_Of_Two_Arrays.cs" />
     <Compile Include="Easy\350_Intersection_Of_Two_Arrays_2.cs" />
+    <Compile Include="Easy\374_GuessNumberHigherOrLower.cs" />
     <Compile Include="Easy\412_FizzBuzz.cs" />
     <Compile Include="Easy\520_DetectCapital.cs" />
     <Compile Include="Easy\541_ReverseString2.cs" />
