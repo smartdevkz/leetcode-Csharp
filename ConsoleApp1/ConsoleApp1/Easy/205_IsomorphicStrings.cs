@@ -12,16 +12,22 @@ namespace ConsoleApp1.Easy205
         {
             if (s.Length != t.Length) return false;
             var dict = new Dictionary<char, char>();
-            for (int i = 0; i < s.Length; i++)
+            var dictVal = new Dictionary<char, char>();
+
+            while (s.Length > 0 && t.Length > 0)
             {
-                if (!dict.ContainsKey(s[i]))
+                if (dict.ContainsKey(s[0]))
                 {
-                    dict.Add(s[i], t[i]);
+                    if (dict[s[0]] != t[0]) return false;
                 }
                 else
                 {
-                    if (dict[s[i]] != t[i]) return false;
+                    if (dictVal.ContainsKey(t[0])) return false;
+                    dict.Add(s[0], t[0]);
+                    dictVal.Add(t[0], s[0]);
                 }
+                s = s.Remove(0, 1);
+                t = t.Remove(0, 1);
             }
             return true;
         }
