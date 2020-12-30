@@ -57,6 +57,7 @@
     <Compile Include="Easy\1512_NumberOfGoodPairs.cs" />
     <Compile Include="Easy\1528_SuffleString.cs" />
     <Compile Include="Easy\1539_Kth_Missing_Positive_Number.cs" />
+    <Compile Include="Easy\1684_CountTheNumberOfConsistentStrings.cs" />
     <Compile Include="Easy\168_ExcelSheetColumn.cs" />
     <Compile Include="Easy\171_Excel_Sheet_Column_Number.cs" />
     <Compile Include="Easy\172_FactorialTrailingZeroes.cs" />
@@ -65,6 +66,7 @@
     <Compile Include="Easy\204_CountPrimes.cs" />
     <Compile Include="Easy\205_IsomorphicStrings.cs" />
     <Compile Include="Easy\206_Reverse_Linked_List.cs" />
+    <Compile Include="Easy\20_ValidParentheses.cs" />
     <Compile Include="Easy\233_NumberOfDigitOne.cs" />
     <Compile Include="Easy\234_Palindrome_Linked_List.cs" />
     <Compile Include="Easy\237_DeleteNodeInALinkedList.cs" />
@@ -72,6 +74,7 @@
     <Compile Include="Easy\263_UglyNumber.cs" />
     <Compile Include="Easy\268_MissingNumber.cs" />
     <Compile Include="Easy\278_FirstBadVersion.cs" />
+    <Compile Include="Easy\290_WordPattern.cs" />
     <Compile Include="Easy\344_ReverseString.cs" />
     <Compile Include="Easy\345_ReverseVowelsOfAString.cs" />
     <Compile Include="Easy\349_Intersection_Of_Two_Arrays.cs" />
@@ -82,6 +85,7 @@
     <Compile Include="Easy\541_ReverseString2.cs" />
     <Compile Include="Easy\557_ReverseWordsInAString3.cs" />
     <Compile Include="Easy\565_ArrayNesting.cs" />
+    <Compile Include="Easy\67_AddBinary.cs" />
     <Compile Include="Easy\771_JewelsAndStones.cs" />
     <Compile Include="Easy\83_RemoveDuplicatesFromSortedList.cs" />
     <Compile Include="Easy\941_Valid_Mountain_Array.cs" />

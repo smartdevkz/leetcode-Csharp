@@ -12,9 +12,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var solution = new Easy258.Solution();
+            var solution = new Easy67.Solution();
 
-            var res = solution.AddDigits(8);
+            var res = solution.AddBinary("11", "1");
             //DisplayArray(a);
 
             //var res = solution.CommonChars(new[] { "bella", "label", "roller" });
