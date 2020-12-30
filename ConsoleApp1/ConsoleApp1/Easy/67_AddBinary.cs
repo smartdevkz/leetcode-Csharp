@@ -12,17 +12,16 @@ namespace ConsoleApp1.Easy67
         {
             var builder = new StringBuilder();
             string r = "0";
-            while (a.Length > 0 || b.Length > 0)
+            int i = 1;
+            while (i <= a.Length || i <= b.Length)
             {
-                var sum = Add(a.Length > 0 ? a[a.Length - 1].ToString() : "0", b.Length > 0 ? b[b.Length - 1].ToString() : "0");
+                var sum = Add(i <= a.Length ? a[a.Length - i].ToString() : "0", i <= b.Length ? b[b.Length - i].ToString() : "0");
                 sum = Add(sum, r);
                 r = sum.Length > 1 ? "1" : "0";
                 builder.Insert(0, sum[sum.Length - 1]);
-                if (a.Length > 0)
-                    a = a.Remove(a.Length - 1);
-                if (b.Length > 0)
-                    b = b.Remove(b.Length - 1);
+                i++;
             }
+
             if (r == "1") builder.Insert(0, "1");
             return builder.ToString();
         }
