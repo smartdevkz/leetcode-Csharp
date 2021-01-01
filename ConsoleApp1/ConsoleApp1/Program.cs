@@ -12,14 +12,14 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var solution = new Easy67.Solution();
+            var solution = new Easy989.Solution();
 
-            var res = solution.AddBinary("11", "1");
+            var res = solution.AddToArrayForm(new int[] { 1, 2, 0, 0 }, 34);
             //DisplayArray(a);
 
             //var res = solution.CommonChars(new[] { "bella", "label", "roller" });
             //solution.DisplayListNode(res);
-            Console.WriteLine(res);
+            //Console.WriteLine(res);
             //DisplayArray(res);
             //DisplayLinkedList(res);
             Console.ReadKey();
@@ -39,7 +39,7 @@ namespace ConsoleApp1
             {
                 Console.Write(head.val);
                 head = head.next;
-                if(head!=null)Console.Write("->");
+                if (head != null) Console.Write("->");
             }
         }
     }

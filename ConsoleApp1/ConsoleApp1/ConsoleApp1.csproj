@@ -89,6 +89,7 @@
     <Compile Include="Easy\771_JewelsAndStones.cs" />
     <Compile Include="Easy\83_RemoveDuplicatesFromSortedList.cs" />
     <Compile Include="Easy\941_Valid_Mountain_Array.cs" />
+    <Compile Include="Easy\989_AddTOArrayFormOfInteger.cs" />
     <Compile Include="Easy\someTasks.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
