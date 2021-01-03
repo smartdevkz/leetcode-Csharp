@@ -75,6 +75,7 @@
     <Compile Include="Easy\268_MissingNumber.cs" />
     <Compile Include="Easy\278_FirstBadVersion.cs" />
     <Compile Include="Easy\290_WordPattern.cs" />
+    <Compile Include="Easy\2_AddTwoNumbers.cs" />
     <Compile Include="Easy\344_ReverseString.cs" />
     <Compile Include="Easy\345_ReverseVowelsOfAString.cs" />
     <Compile Include="Easy\349_Intersection_Of_Two_Arrays.cs" />
