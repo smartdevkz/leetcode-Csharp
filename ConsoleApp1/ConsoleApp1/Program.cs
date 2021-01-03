@@ -12,14 +12,14 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var solution = new Easy989.Solution();
+            var solution = new Easy43.Solution();
 
-            var res = solution.AddToArrayForm(new int[] { 1, 2, 0, 0 }, 34);
+            var res = solution.Multiply("123","456");
             //DisplayArray(a);
 
             //var res = solution.CommonChars(new[] { "bella", "label", "roller" });
             //solution.DisplayListNode(res);
-            //Console.WriteLine(res);
+            Console.WriteLine(res);
             //DisplayArray(res);
             //DisplayLinkedList(res);
             Console.ReadKey();
