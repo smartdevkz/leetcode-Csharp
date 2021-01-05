@@ -12,23 +12,23 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            //test();
-            run();
+            test();
+            //run();
             Console.ReadKey();
         }
 
         static void run()
         {
-            var solution = new Easy2.Solution();
+            var solution = new Easy190.Solution();
 
-            var res = solution.AddTwoNumbers(solution.Init(new int[] { 9, 9, 9, 9, 9, 9, 9 }), solution.Init(new int[] { 9, 9, 9, 9 }));
+            var res = solution.reverseBits(43261596);
             //DisplayArray(a);
 
             //var res = solution.CommonChars(new[] { "bella", "label", "roller" });
             //solution.DisplayListNode(res);
             //Console.WriteLine(res);
             //DisplayArray(res);
-            DisplayLinkedList(res);
+            //DisplayLinkedList(res);
         }
 
         static void DisplayArray(IList<string> arr)
@@ -51,7 +51,12 @@ namespace ConsoleApp1
 
         static void test()
         {
-            var res = getSum(35, 118);
+            int a = 5;
+            Console.WriteLine(Convert.ToString(a, 2));
+            //Console.WriteLine(Convert.ToString(a & 4, 2));
+            Console.WriteLine(Convert.ToString(a << 1, 2));
+            Console.WriteLine(Convert.ToString(a >> 1, 2));
+            //var res = getSum(35, 118);
         }
 
         static int getSum(int a, int b)
