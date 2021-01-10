@@ -83,6 +83,7 @@
     <Compile Include="Easy\349_Intersection_Of_Two_Arrays.cs" />
     <Compile Include="Easy\350_Intersection_Of_Two_Arrays_2.cs" />
     <Compile Include="Easy\374_GuessNumberHigherOrLower.cs" />
+    <Compile Include="Easy\392_IsSubsequence.cs" />
     <Compile Include="Easy\412_FizzBuzz.cs" />
     <Compile Include="Easy\415_AddStrings.cs" />
     <Compile Include="Easy\43_MultiplyStrings.cs" />
