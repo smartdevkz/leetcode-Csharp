@@ -62,6 +62,7 @@
     <Compile Include="Easy\171_Excel_Sheet_Column_Number.cs" />
     <Compile Include="Easy\172_FactorialTrailingZeroes.cs" />
     <Compile Include="Easy\190_ReverseBits.cs" />
+    <Compile Include="Easy\191_NumberOfBits.cs" />
     <Compile Include="Easy\19_RemoveNthNodeFromEndOfList.cs" />
     <Compile Include="Easy\203_RemoveLinkedListElements.cs" />
     <Compile Include="Easy\204_CountPrimes.cs" />
