@@ -90,6 +90,7 @@
     <Compile Include="Easy\43_MultiplyStrings.cs" />
     <Compile Include="Easy\441_ArrangingCoins.cs" />
     <Compile Include="Easy\492_ConstructTheRectangle.cs" />
+    <Compile Include="Easy\507_PerfectNumber.cs" />
     <Compile Include="Easy\520_DetectCapital.cs" />
     <Compile Include="Easy\541_ReverseString2.cs" />
     <Compile Include="Easy\557_ReverseWordsInAString3.cs" />
