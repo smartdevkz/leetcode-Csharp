@@ -19,10 +19,10 @@ namespace ConsoleApp1
 
         static void run()
         {
-            var solution = new Easy976.Solution();
+            var solution = new Easy231.Solution();
 
             //var res = solution.HammingWeight(43261596);
-            var res = solution.LargestPerimeter(new int[] {1,2,1 });
+            var res = solution.IsPowerOfTwo3(4);
             //DisplayArray(a);
 
             //var res = solution.CommonChars(new[] { "bella", "label", "roller" });
