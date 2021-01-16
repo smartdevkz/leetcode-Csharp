@@ -96,6 +96,7 @@
     <Compile Include="Easy\557_ReverseWordsInAString3.cs" />
     <Compile Include="Easy\565_ArrayNesting.cs" />
     <Compile Include="Easy\628_MaximumProductOfThreeNumbers.cs" />
+    <Compile Include="Easy\645_SetMisMatch.cs" />
     <Compile Include="Easy\67_AddBinary.cs" />
     <Compile Include="Easy\771_JewelsAndStones.cs" />
     <Compile Include="Easy\83_RemoveDuplicatesFromSortedList.cs" />
