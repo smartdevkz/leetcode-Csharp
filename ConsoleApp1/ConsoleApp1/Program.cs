@@ -19,20 +19,20 @@ namespace ConsoleApp1
 
         static void run()
         {
-            var solution = new Easy231.Solution();
+            var solution = new Easy492.Solution();
 
             //var res = solution.HammingWeight(43261596);
-            var res = solution.IsPowerOfTwo3(4);
+            var res = solution.ConstructRectangle(37);
             //DisplayArray(a);
 
             //var res = solution.CommonChars(new[] { "bella", "label", "roller" });
             //solution.DisplayListNode(res);
-            Console.WriteLine(res);
-            //DisplayArray(res);
+            //Console.WriteLine(res);
+            DisplayArray(res);
             //DisplayLinkedList(res);
         }
 
-        static void DisplayArray(IList<string> arr)
+        static void DisplayArray<T>(IList<T> arr)
         {
             foreach (var item in arr)
             {
