@@ -51,6 +51,7 @@
     <Compile Include="Easy\110_BalancedTree.cs" />
     <Compile Include="Easy\111_MinimumDepthOfBinaryTree.cs" />
     <Compile Include="Easy\112_PathSum.cs" />
+    <Compile Include="Easy\1154_DayOfTheYear.cs" />
     <Compile Include="Easy\119_PascalTriangle2.cs" />
     <Compile Include="Easy\121_BestTimeToBuyAndSell.cs" />
     <Compile Include="Easy\125ValidPalindrome.cs" />
