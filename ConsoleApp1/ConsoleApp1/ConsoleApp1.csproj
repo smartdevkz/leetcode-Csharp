@@ -47,6 +47,7 @@
     <Compile Include="Easy\1009_ComplementOfBase10Integer.cs" />
     <Compile Include="Easy\100_Same_Tree.cs" />
     <Compile Include="Easy\101_Symmetric_Tree.cs" />
+    <Compile Include="Easy\1037_ValidBoomerang.cs" />
     <Compile Include="Easy\110_BalancedTree.cs" />
     <Compile Include="Easy\111_MinimumDepthOfBinaryTree.cs" />
     <Compile Include="Easy\112_PathSum.cs" />
