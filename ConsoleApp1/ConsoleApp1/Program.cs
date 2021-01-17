@@ -19,10 +19,10 @@ namespace ConsoleApp1
 
         static void run()
         {
-            var solution = new Easy1009.Solution();
+            var solution = new Easy970.Solution();
 
             //var res = solution.HammingWeight(43261596);
-            var res = solution.BitwiseComplement(5);
+            var res = solution.PowerfulIntegers(2, 3, 10);
 
             //DisplayArray(a);
 

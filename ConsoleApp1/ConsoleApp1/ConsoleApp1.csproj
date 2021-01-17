@@ -105,6 +105,7 @@
     <Compile Include="Easy\83_RemoveDuplicatesFromSortedList.cs" />
     <Compile Include="Easy\868_BinaryGap.cs" />
     <Compile Include="Easy\941_Valid_Mountain_Array.cs" />
+    <Compile Include="Easy\970_PowerfulIntegers.cs" />
     <Compile Include="Easy\976_LargestPerimeterTriangle.cs" />
     <Compile Include="Easy\989_AddTOArrayFormOfInteger.cs" />
     <Compile Include="Easy\someTasks.cs" />
