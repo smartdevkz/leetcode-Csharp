@@ -98,6 +98,7 @@
     <Compile Include="Easy\628_MaximumProductOfThreeNumbers.cs" />
     <Compile Include="Easy\645_SetMisMatch.cs" />
     <Compile Include="Easy\67_AddBinary.cs" />
+    <Compile Include="Easy\728_SelfDividingNumbers.cs" />
     <Compile Include="Easy\771_JewelsAndStones.cs" />
     <Compile Include="Easy\83_RemoveDuplicatesFromSortedList.cs" />
     <Compile Include="Easy\941_Valid_Mountain_Array.cs" />
