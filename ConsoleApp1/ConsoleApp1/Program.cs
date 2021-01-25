@@ -13,7 +13,12 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             //test();
-            run();
+            Random rnd = new Random();
+            for(int i = 0; i < 10; i++)
+            {
+                Console.WriteLine(rnd.Next(0, 2));
+            }
+            //run();
             Console.ReadKey();
         }
 
