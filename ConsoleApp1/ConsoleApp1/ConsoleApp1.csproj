@@ -112,6 +112,7 @@
     <Compile Include="Easy\989_AddTOArrayFormOfInteger.cs" />
     <Compile Include="Easy\someTasks.cs" />
     <Compile Include="Medium\380_InsertDeleteGetRandom%281%29.cs" />
+    <Compile Include="Medium\59_SpiralMatrix2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

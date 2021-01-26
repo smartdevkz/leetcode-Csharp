@@ -13,27 +13,23 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             //test();
-            Random rnd = new Random();
-            for(int i = 0; i < 10; i++)
-            {
-                Console.WriteLine(rnd.Next(0, 2));
-            }
-            //run();
+            run();
             Console.ReadKey();
         }
 
         static void run()
         {
-            var solution = new Easy970.Solution();
+            var solution = new Medium59.Solution();
 
             //var res = solution.HammingWeight(43261596);
-            var res = solution.PowerfulIntegers(2, 3, 10);
+            var res = solution.GenerateMatrix(10);
+            solution.Display(res);
 
             //DisplayArray(a);
 
             //var res = solution.CommonChars(new[] { "bella", "label", "roller" });
             //solution.DisplayListNode(res);
-            Console.WriteLine(res);
+            //Console.WriteLine(res);
             //DisplayArray(res);
             //DisplayLinkedList(res);
         }
