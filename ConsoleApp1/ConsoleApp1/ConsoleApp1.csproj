@@ -52,6 +52,7 @@
     <Compile Include="Easy\119_PascalTriangle2.cs" />
     <Compile Include="Easy\121_BestTimeToBuyAndSell.cs" />
     <Compile Include="Easy\125ValidPalindrome.cs" />
+    <Compile Include="Easy\1290_ConvertBinaryNumberInALinkedListToInteger.cs" />
     <Compile Include="Easy\1346_CheckIfNAndItsDoubleExist.cs" />
     <Compile Include="Easy\141_LinkedListCycle.cs" />
     <Compile Include="Easy\1512_NumberOfGoodPairs.cs" />
