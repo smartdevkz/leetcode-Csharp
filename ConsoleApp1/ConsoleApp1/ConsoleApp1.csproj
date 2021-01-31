@@ -107,6 +107,7 @@
     <Compile Include="Easy\836_RectangleOverlap.cs" />
     <Compile Include="Easy\83_RemoveDuplicatesFromSortedList.cs" />
     <Compile Include="Easy\868_BinaryGap.cs" />
+    <Compile Include="Easy\876_MiddleOfTheLinkedList.cs" />
     <Compile Include="Easy\941_Valid_Mountain_Array.cs" />
     <Compile Include="Easy\970_PowerfulIntegers.cs" />
     <Compile Include="Easy\976_LargestPerimeterTriangle.cs" />
