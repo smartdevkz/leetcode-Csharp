@@ -10,16 +10,14 @@ namespace ConsoleApp1.Easy1290
     {
         public int GetDecimalValue(ListNode head)
         {
+            var builder = new StringBuilder();
             List<byte> lst = new List<byte>();
             while (head != null)
             {
-                lst.Add((byte)head.val);
+                builder.Append(head.val == 1 ? "1" : "0");
+                head = head.next;
             }
-            int res = 0;
-            for(int i = 0; i < lst.Count; i++) {
-                res +=(int) (lst[lst.Count - 1 - i] * Math.Pow(2, i));
-            }
-            return res;
+            return Convert.ToInt32(builder.ToString(), 2);
         }
     }
 
