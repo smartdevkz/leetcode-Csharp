@@ -99,6 +99,7 @@
     <Compile Include="Easy\520_DetectCapital.cs" />
     <Compile Include="Easy\541_ReverseString2.cs" />
     <Compile Include="Easy\557_ReverseWordsInAString3.cs" />
+    <Compile Include="Easy\561_ArrayPartitionI.cs" />
     <Compile Include="Easy\565_ArrayNesting.cs" />
     <Compile Include="Easy\628_MaximumProductOfThreeNumbers.cs" />
     <Compile Include="Easy\645_SetMisMatch.cs" />
