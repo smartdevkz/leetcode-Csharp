@@ -19,17 +19,17 @@ namespace ConsoleApp1
 
         static void run()
         {
-            var solution = new Medium59.Solution();
+            var solution = new Easy219.Solution();
 
             //var res = solution.HammingWeight(43261596);
-            var res = solution.GenerateMatrix(10);
-            solution.Display(res);
+            var res = solution.ContainsNearbyDuplicate(new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 9 },3);
+            //solution.Display(res);
 
             //DisplayArray(a);
 
             //var res = solution.CommonChars(new[] { "bella", "label", "roller" });
             //solution.DisplayListNode(res);
-            //Console.WriteLine(res);
+            Console.WriteLine(res);
             //DisplayArray(res);
             //DisplayLinkedList(res);
         }
