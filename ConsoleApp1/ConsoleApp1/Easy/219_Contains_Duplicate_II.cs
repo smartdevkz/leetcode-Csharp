@@ -11,26 +11,18 @@ namespace ConsoleApp1.Easy219
         public bool ContainsNearbyDuplicate(int[] nums, int k)
         {
             if (k == 0) return false;
-            int i = 0, j = i + 1;
-            while (i < nums.Length - 1)
+            Dictionary<int, int> dict = new Dictionary<int, int>();
+            for(int i = 0; i < nums.Length; i++)
             {
-                if (nums[i] != nums[j])
+                if (dict.ContainsKey(nums[i]))
                 {
-                    if (j - i >= k)
-                    {
-                        i++;
-                        j = i;
-                    }
-                    if (j < nums.Length - 1)
-                    {
-                        j++;
-                    }
-                    else { i++; }
-                        
+                    int d = i - dict[nums[i]];
+                    if (d <= k) return true;
+                    dict[nums[i]] = i;
                 }
                 else
                 {
-                    return true;
+                    dict.Add(nums[i], i);
                 }
             }
             return false;
