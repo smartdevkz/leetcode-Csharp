@@ -61,6 +61,7 @@
     <Compile Include="Easy\1512_NumberOfGoodPairs.cs" />
     <Compile Include="Easy\1528_SuffleString.cs" />
     <Compile Include="Easy\1539_Kth_Missing_Positive_Number.cs" />
+    <Compile Include="Easy\167_Two_Sum_II_Input_array_is_sorted.cs" />
     <Compile Include="Easy\1684_CountTheNumberOfConsistentStrings.cs" />
     <Compile Include="Easy\168_ExcelSheetColumn.cs" />
     <Compile Include="Easy\171_Excel_Sheet_Column_Number.cs" />
