@@ -106,6 +106,7 @@
     <Compile Include="Easy\628_MaximumProductOfThreeNumbers.cs" />
     <Compile Include="Easy\645_SetMisMatch.cs" />
     <Compile Include="Easy\67_AddBinary.cs" />
+    <Compile Include="Easy\704_BinarySearch.cs" />
     <Compile Include="Easy\728_SelfDividingNumbers.cs" />
     <Compile Include="Easy\771_JewelsAndStones.cs" />
     <Compile Include="Easy\836_RectangleOverlap.cs" />

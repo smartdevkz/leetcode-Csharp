@@ -19,10 +19,10 @@ namespace ConsoleApp1
 
         static void run()
         {
-            var solution = new Easy167.Solution();
+            var solution = new Easy704.Solution();
 
             //var res = solution.HammingWeight(43261596);
-            var res = solution.TwoSum(new int[] { -1000, -1, 0,1 }, 1);            //solution.Display(res);
+            var res = solution.Search(new int[] { -1, 0, 3, 5, 9, 12 }, 2);            //solution.Display(res);
 
             //DisplayArray(a);
 
