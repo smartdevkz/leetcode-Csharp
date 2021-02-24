@@ -118,6 +118,7 @@
     <Compile Include="Easy\989_AddTOArrayFormOfInteger.cs" />
     <Compile Include="Easy\someTasks.cs" />
     <Compile Include="Hard\42_TrappingRainWater.cs" />
+    <Compile Include="Hard\51_N_Queens.cs" />
     <Compile Include="Medium\151_ReverseWordsInAString.cs" />
     <Compile Include="Medium\380_InsertDeleteGetRandom%281%29.cs" />
     <Compile Include="Medium\48_RotateImage.cs" />

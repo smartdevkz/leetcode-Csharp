@@ -19,16 +19,16 @@ namespace ConsoleApp1
 
         static void run()
         {
-            var solution = new Easy704.Solution();
+            var solution = new Hard51.Solution();
 
             //var res = solution.HammingWeight(43261596);
-            var res = solution.Search(new int[] { -1, 0, 3, 5, 9, 12 }, 2);            //solution.Display(res);
+            solution.Run(1);            //solution.Display(res);
 
             //DisplayArray(a);
 
             //var res = solution.CommonChars(new[] { "bella", "label", "roller" });
             //solution.DisplayListNode(res);
-            Console.WriteLine(res);
+            //Console.WriteLine(res);
             //DisplayArray(res);
             //DisplayLinkedList(res);
         }
