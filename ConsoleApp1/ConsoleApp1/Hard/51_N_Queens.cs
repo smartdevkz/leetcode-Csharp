@@ -10,74 +10,52 @@ namespace ConsoleApp1.Hard51
     {
         public void Run(int n)
         {
-            //var res = SolveNQueens(4);
-            //Display(res);
-
-            var lst = new List<List<int>>();
-            var res = Init(n);
-            Generate(res, 0);
-
-            while (res[0] != -1)
-            {
-                lst.Add(res.ToList());
-                int start = res[0];
-                res = Init(n);
-                res[0] = start;
-                Generate(res, 0);
-            }
-
-            Display(lst.ToArray());
+            var res = SolveNQueens(n);
+            Display(res);
         }
 
         public IList<IList<string>> SolveNQueens(int n)
         {
-            var lst = new List<List<int>>();
-            var res = Init(n);
-            Generate(res, 0);
-
-            while (res[0] != -1)
+            var res = new List<List<string>>();
+            var arr = Init(n);
+            var lst = GetList(arr, 0, 0);
+            while (lst != null)
             {
-                lst.Add(res.ToList());
-                int start = res[0];
-                res = Init(n);
-                res[0] = start;
-                Generate(res, 0);
+                res.Add(Convert(lst));
+                Display(lst);
+                var val = lst[n - 1];
+                lst[n - 1] = -1;
+                lst = GetList(lst, n - 1, ++val);
             }
-
-            return Convert(lst);
+            return res.ToArray();
         }
 
-        IList<IList<string>> Convert(List<List<int>> lst)
+        List<string> Convert(int[] res)
         {
-            var converted = new List<List<string>>();
-            foreach (var res in lst)
+            List<string> lst = new List<string>();
+            var builder = new StringBuilder();
+            int n = res.Length;
+            int i = 0;
+            int j = 0;
+            while (i < n * n)
             {
-                List<string> resStr = new List<string>();
-                var builder = new StringBuilder();
-                int n = res.Count();
-                int i = 0;
-                int j = 0;
-                while (i < n * n)
+                if (j < res.Length && i == res[j])
                 {
-                    if (j < res.Count() && i == res[j])
-                    {
-                        builder.Append("Q");
-                        j++;
-                    }
-                    else
-                    {
-                        builder.Append(".");
-                    }
-                    i++;
-                    if (i % n == 0)
-                    {
-                        resStr.Add(builder.ToString());
-                        builder = new StringBuilder();
-                    }
+                    builder.Append("Q");
+                    j++;
                 }
-                converted.Add(resStr);
-            };
-            return converted.ToArray();
+                else
+                {
+                    builder.Append(".");
+                }
+                i++;
+                if (i % n == 0)
+                {
+                    lst.Add(builder.ToString());
+                    builder = new StringBuilder();
+                }
+            }
+            return lst;
         }
 
         int[] Init(int n)
@@ -87,39 +65,49 @@ namespace ConsoleApp1.Hard51
             return lst.ToArray();
         }
 
-        void Generate(int[] res, int pos)
+        int[] GetList(int[] res, int pos, int val)
         {
-            if (pos * pos >= res.Count()) return;
-            if (pos == -1) return;
-            if (res[res.Length - 1] >= 0) return;
-            int last = res[pos];
-            if (pos == 0)
+            int n = res.Length;
+            while (pos >= 0 && pos < n)
             {
-                res[pos] = -1;
+                //Display(res);
+                if (res[0] == 4 && res[1] == 6 && res[2] == 13 && res[3] == 15)
+                {
+                    var stop = 1;
+                }
+                val = GetNext(res, val);
+                if (val < 0)
+                {
+                    res[pos] = -1;
+                    pos--;
+                    if (pos < 0) return null;
+                    val = res[pos];
+                    val++;
+                    res[pos] = -1;
+                }
+                else
+                {
+                    res[pos] = val;
+                    pos++;
+                    val++;
+                }
             }
-            else if (pos > 0)
-            {
-                if (last == -1) last = res[pos - 1];
-            }
-            var val = GetNext(res, ++last);
-            if (val == -1)
-            {
-                res[pos] = -1;
-                --pos;
-            }
-            else
-            {
-                res[pos] = val;
-                pos++;
-            }
-            Generate(res, pos);
+            return res[n - 1] >= 0 ? res : null;
         }
 
         int GetNext(int[] res, int val)
         {
             int n = res.Length;
             if (val >= n * n) return -1;
-            return !isAttacked(res, val) ? val : GetNext(res, ++val);
+            if (isAttacked(res, val))
+            {
+                val++;
+                return GetNext(res, val);
+            }
+            else
+            {
+                return val;
+            }
         }
 
         bool isAttacked(int[] res, int val)
@@ -131,30 +119,29 @@ namespace ConsoleApp1.Hard51
                 int current = item;
                 while ((current + 1) % n != 0)
                 {
+                    if (current == val) return true;
                     current++;
-                    if (current == val) return true;
                 }
 
                 current = item;
-                while (current < n * n)
+                while (current < n * n && (current+1) % n > 0)
                 {
+                    if (current == val) return true;
                     current += (n - 1);
-                    if ((current + 1) % n == 0) break;
-                    if (current == val) return true;
                 }
 
                 current = item;
                 while (current < n * n)
                 {
+                    if (current == val) return true;
                     current += n;
-                    if (current == val) return true;
                 }
 
                 current = item;
-                while (current < n * n)
+                while (current < n * n && current % n > 0)
                 {
-                    current += (n + 1);
                     if (current == val) return true;
+                    current += (n + 1);
                 }
             }
             return false;
@@ -164,8 +151,9 @@ namespace ConsoleApp1.Hard51
         {
             foreach (var item in res)
             {
-                Console.WriteLine(item);
+                Console.Write(item + " ");
             }
+            Console.WriteLine();
         }
 
         void Display(IList<IList<string>> res)

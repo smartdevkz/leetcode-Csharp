@@ -22,7 +22,7 @@ namespace ConsoleApp1
             var solution = new Hard51.Solution();
 
             //var res = solution.HammingWeight(43261596);
-            solution.Run(1);            //solution.Display(res);
+            solution.Run(5);            //solution.Display(res);
 
             //DisplayArray(a);
 
