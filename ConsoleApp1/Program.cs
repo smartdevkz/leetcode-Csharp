@@ -14,7 +14,6 @@ namespace ConsoleApp1
         {
             //test();
             run();
-            Console.ReadKey();
         }
 
         static void run()
