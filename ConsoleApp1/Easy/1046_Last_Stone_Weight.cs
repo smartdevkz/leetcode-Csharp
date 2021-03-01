@@ -13,15 +13,13 @@ namespace ConsoleApp1.Easy1046
             Array.Reverse(stones);
             HeapMax heap = new HeapMax(stones.Length);
             foreach (var item in stones) { heap.Add(item); }
-            Console.WriteLine(heap);
+            
             while (heap.Size() >= 2)
             {
                 var max1 = heap.Pop();
                 var max2 = heap.Pop();
                 int diff = max1 - max2;
                 if (diff > 0) heap.Add(diff);
-                Console.WriteLine($"m1={max1} m2={max2} diff={diff}");
-                Console.WriteLine(heap);
             }
             return heap.IsEmpty() ? 0 : heap.Peek();
         }
