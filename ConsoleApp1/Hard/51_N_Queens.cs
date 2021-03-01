@@ -70,11 +70,6 @@ namespace ConsoleApp1.Hard51
             int n = res.Length;
             while (pos >= 0 && pos < n)
             {
-                //Display(res);
-                if (res[0] == 4 && res[1] == 6 && res[2] == 13 && res[3] == 15)
-                {
-                    var stop = 1;
-                }
                 val = GetNext(res, val);
                 if (val < 0)
                 {

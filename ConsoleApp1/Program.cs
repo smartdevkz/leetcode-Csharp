@@ -18,10 +18,11 @@ namespace ConsoleApp1
 
         static void run()
         {
-            var solution = new Hard51.Solution();
+            var solution = new Easy1046.Solution();
 
-            //var res = solution.HammingWeight(43261596);
-            solution.Run(5);            //solution.Display(res);
+            var res = solution.LastStoneWeight(new int[] { 4,7,4,5,10,2,2,3 });
+
+            Console.WriteLine(res);
 
             //DisplayArray(a);
 
