@@ -17,9 +17,9 @@ namespace ConsoleApp1
 
         static void run()
         {
-            var solution = new ConsoleApp1.Easy455.Solution();
+            var solution = new ConsoleApp1.Easy605.Solution();
 
-            var res = solution.FindContentChildren(new int[]{1,2,3}, new int[]{4});
+            var res = solution.CanPlaceFlowers(new int[]{1,0,0,0,0,0,1}, 2);
 
             Console.WriteLine(res);
 
