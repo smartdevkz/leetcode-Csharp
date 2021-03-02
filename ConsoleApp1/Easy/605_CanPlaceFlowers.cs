@@ -10,36 +10,16 @@ namespace ConsoleApp1.Easy605
     {
         public bool CanPlaceFlowers(int[] flowerbed, int n)
         {
-            int k = 0;
-            bool prevIsEmpty = true;
-            for (int i = 0; i < flowerbed.Length; i++)
+            for (int i = 0; i < flowerbed.Length; ++i)
             {
-                if (flowerbed[i] == 0)
-                {
-                    if (prevIsEmpty)
-                    {
-                        if (i + 1 >= flowerbed.Length || flowerbed[i + 1] == 0)
-                        {
-                            k++;
-                            if (k >= n) return true;
-                        }
-                        else
-                        {
-                            prevIsEmpty = false;
-                        }
-                        i++;
-                    }
-                    else
-                    {
-                        prevIsEmpty = true;
-                    }
-                }
-                else
-                {
-                    prevIsEmpty = false;
-                }
+                if (flowerbed[i] == 1) continue;
+                if (i - 1 >= 0 && flowerbed[i - 1] == 1) continue;
+                if (i + 1 < flowerbed.Length && flowerbed[i + 1] == 1) continue;
+                n--;
+                if(n==0)return true;
+                i++;
             }
-            return false;
+            return n <= 0;
         }
     }
 }
