@@ -17,9 +17,9 @@ namespace ConsoleApp1
 
         static void run()
         {
-            var solution = new ConsoleApp1.Easy605.Solution();
+            var solution = new ConsoleApp1.Easy242.Solution();
 
-            var res = solution.CanPlaceFlowers(new int[]{1,0,0,0,0,0,1}, 2);
+            var res = solution.IsAnagram("anagram","nagaram");
 
             Console.WriteLine(res);
 

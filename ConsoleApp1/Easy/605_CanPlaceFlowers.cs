@@ -26,4 +26,4 @@ namespace ConsoleApp1.Easy605
         }
     }
 }
-}
+
